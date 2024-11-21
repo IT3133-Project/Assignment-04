@@ -1,0 +1,19 @@
+.gameContainer{
+    text-align: center;
+    margin: 20px;
+}
+
+.game-table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ff9900;
+}
+
+.game-table th,
+.game-table td{
+    border: 1px solid #ff9900;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}

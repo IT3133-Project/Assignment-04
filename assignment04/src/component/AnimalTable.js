@@ -1,14 +1,15 @@
 import React from 'react'
 import {animals} from '../assets/AnimalsDb';
+import '../assets/css/compo.css'
 
 
 function AnimalTable(props) {
   return (
-    <div>
-        <table width={"100%"} border={1}>
+    <div className='gameContainer'>
+        <table className='game-table'>
             <thead>
                 <tr >
-                    <td width="100%">Animal Matching Game</td>
+                    <th colspan="3">Animal Matching Game</th>
                 </tr>
                 <tr>
                     <td >Result</td>
@@ -16,6 +17,19 @@ function AnimalTable(props) {
                     <td>Select the Animal</td>
                 </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <td><h2>Result</h2></td>
+
+                    <td><h2>Animal Name</h2></td>
+                    <td>
+                        <div>
+
+                        </div>
+                    </td>
+                </tr>
+
+            </tbody>
         </table>
     </div>
   )
