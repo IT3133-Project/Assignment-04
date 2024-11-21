@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {animals} from '../assets/data/AnimalsDb';
 import '../assets/css/compo.css'
 
@@ -16,6 +16,11 @@ function AnimalTable(props) {
             setResult('LOSE');
         }
     };
+
+    useEffect(()=>{
+        const randomIndex= Math.floor(Math.random() * 10)+1;
+        setRandomAnimal(animals[randomIndex]);
+    },[]);
 
   return (
     <div className='gameContainer'>
