@@ -25,6 +25,10 @@ function AnimalTable(props) {
         }else{
             setResult('LOSE');
         }
+
+        setTimeout(() => {
+            generateRandomAnimal(); 
+          }, 1000);
     };
 
     if (!randomAnimal) {
