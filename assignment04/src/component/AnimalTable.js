@@ -38,12 +38,12 @@ function AnimalTable(props) {
         <table className='game-table'>
             <thead>
                 <tr >
-                    <th colSpan="3">Animal Matching Game</th>
+                    <th colSpan="3"><h2>ANIMAL MATCHING GAME</h2></th>
                 </tr>
                 <tr>
-                    <th>Result</th>
-                    <th>Animal Name</th>
-                    <th>Select the Animal</th>
+                    <th><h3>Result</h3></th>
+                    <th><h3>Animal Name</h3></th>
+                    <th><h3>Select the Animal</h3></th>
                 </tr>
             </thead>
             <tbody>
